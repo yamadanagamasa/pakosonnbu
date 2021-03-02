@@ -5,13 +5,32 @@
     <link rel="shortcut icon" href="css/nuai.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="css/nuai.png" sizes="180x180">
     <link rel="icon" type="image/png" href="css/nuai.png" sizes="192x192">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
 </head>
 <script>
     alert("まだパコソン同好会はありません");
     alert("５月ぐらいにできるかもしんないお⸜( ´ ꒳ ` )⸝");
 </script>
 <body>
-    <div class="header">
+    
+    <div class="slider">
+        <img src="css/pa1.jpg" width="500" height="500" alt="">
+        <img src="css/OOKIMGL2621_TP_V.jpg" width="500" height="500" alt="">
+        <img src="css/macbook1686.jpg" width="500" height="500" alt="">
+        <img src="css/elooopa_201705775.jpg" width="500" height="500" alt="">
+    </div>
+     <div class="header">
         <div class="container">
         <div class="header-right">
             <a href="index.html">ホーム</a>
@@ -20,15 +39,16 @@
         </div>
         <div class="clear"></div>
         </div>
-    </div>
+    </div>  
     <div class="typewriter">
         <h1>ようこそ、おいでなすって</h1>
-        <h1 id="line-1">パコソン部へ</p>
+        <h1 id="line-1">パコソン部へ</h1>
         <a href="mailto:di.lisova@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
         </div>
     <div class="main">
     <h1><br><br><br></h1>
    </div> 
+     
 <div class="container">
   <div class="loadingspinner">
     <div id="square1"></div>
@@ -41,12 +61,16 @@
    <div class="nai1">
        <p>パコソン同好会では、同好会員を募集しております<br>興味があれば来てみてください<br>html&css,python,javascriptなどをします</p> 
     </div>
-    <div class="sample">
-        <ul>
-        <li><img src="css/sample3.png"></li>
-        <li><img src="css/sample2.png"></li>
-        </ul>
-        </div>        
+    <div class="container">
+        <div class="loadingspinner">
+          <div id="square1"></div>
+          <div id="square2"></div>
+          <div id="square3"></div>
+          <div id="square4"></div>
+          <div id="square5"></div>
+        </div>
+      </div>
+     
     <div class="footer">
         <div class="footer-left">
             <p>このサイトをシェア</p>
